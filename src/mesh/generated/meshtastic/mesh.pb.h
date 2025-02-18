@@ -226,6 +226,7 @@ typedef enum _meshtastic_HardwareModel {
     /* MeshLink board developed by LoraItalia. NRF52840, eByte E22900M22S (Will also come with other frequencies), 25w MPPT solar charger (5v,12v,18v selectable), support for gps, buzzer, oled or e-ink display, 10 gpios, hardware watchdog
  https://www.loraitalia.it */
     meshtastic_HardwareModel_MESHLINK = 87,
+    meshtastic_HardwareModel_HELTEC_SENSOR_HUB = 88,
     /* ------------------------------------------------------------------------------------------------------------------------------------------
  Reserved ID For developing private Ports. These will show up in live traffic sparsely, so we can use a high number. Keep it within 8 bits.
  ------------------------------------------------------------------------------------------------------------------------------------------ */
